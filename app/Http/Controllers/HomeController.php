@@ -11,7 +11,7 @@ class HomeController extends Controller
     function index()
     {
 
-        $trains = Train::where("departure_day", "2023-01-24")->get();
+        $trains = Train::whereDate('departure_day', date('Y-m-d'))->get();
 
         return view("index", compact('trains'));
     }
