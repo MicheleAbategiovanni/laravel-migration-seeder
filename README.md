@@ -10,7 +10,8 @@
 
 ## About Project
 
-The project is written using the Laravel php framework.
-This project is based on combining the skills developed on Model, Controller, Migrate.
-The operation takes place through a connection to the assigned DB, and a "trains" table is created for it, which contains all the columns created by me through the migrates.
-Once the columns have been initialized, in the "HomeController" we are going to set the where to receive only the trains departing for today from the DB.
+
+The project is written using the Laravel php framework. <br/>
+This project is based on combining the skills developed on Model, Controller, Migrate.<br/>
+The operation takes place through a connection to the assigned DB, and a "trains" table is created for it, which contains all the columns created by me through the migrates.<br/>
+Once the columns have been initialized, in the "HomeController" we are going to set the where to receive only the trains departing for today from the DB.<br/>
